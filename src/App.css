@@ -1,7 +1,9 @@
+
 .App {
   text-align: center;
 }
-
+.path{
+  clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 74%, 62% 74%, 62% 100%, 15% 100%, 0 99%, 0% 85%);}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
