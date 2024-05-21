@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         "bayra-home": "url('./Images/Bayra_Home_Page.png')",
         "bayra-story": "url('./Images/story.jpeg')",
+        "bayra-form": "url('./Images/Form.png')",
       },
     },
   },
