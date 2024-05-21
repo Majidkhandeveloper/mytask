@@ -1,5 +1,9 @@
 
 import bayra_Logo_B_White from "../Images/bayra_Logo_B_White.png";
+import mask from "../Images/Mask.png";
+import masks from "../Images/Masks.png";
+
+
 const Header=()=>{
      return (
        <div className=" flex gap-2 p-4 ">
@@ -12,7 +16,7 @@ const Header=()=>{
              <img src={bayra_Logo_B_White} />
            </div>
 
-           <div className="w-3/4 flex flex-col gap-4  items-start">
+           <div className="w-1/2 flex flex-col gap-4  items-start">
              <p>
                {" "}
                Both approaches effectively center the inner div without relying
@@ -21,15 +25,20 @@ const Header=()=>{
                requirements. Both approaches effectively center the inner div
                without relying on mx-20, ensuring your layout is responsive and
                visually appealing. Choose the one that best fits your design
-               requirements. Both approaches effectively center the inner div
-               without relying on mx-20, ensuring your layout is responsive and
-               visually appealing. Choose the one that best fits your design
-               requirements.
+               
              </p>
-             <button>lorem ipsom</button>
+             <button className="rounded-sm px-4 bg-red-500">lorem ipsom</button>
            </div>
-           <div className="absolute z-30 border-2 border-green-500  bg-black bottom-0 rounded-t-2xl  right-0  w-80 h-24">
-             <div className="border-4 border-white rounded-t-2xl ">ddfdfd</div>
+           <div className="flex gap-2 absolute z-30 p-4 borer-l-2 border-t-2 bg-black bottom-4 rounded-t-2xl rounded-b-2xl  right-2   h-36">
+             <div className=" ">
+               <img src={mask} />
+             </div>
+             <div className=" ">
+               <img src={masks} />
+             </div>
+             <div className=" ">
+               <img src={masks} />
+             </div>
            </div>
          </div>
        </div>
