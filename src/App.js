@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import RevolutionGame from "./Components/RevolutionGame";
 import RecentlyAdd from "./Components/RecentlyAdd";
 import Testimonial from "./Components/Testimonial";
+import ShapWrapper from "./Components/ShapWrapper";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
    <Testimonial/>
    <ContactUs/>
    <RevolutionGame/>
-   </>
+   </div>
   );
 }
 

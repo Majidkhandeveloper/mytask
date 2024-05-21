@@ -1,6 +1,7 @@
 import story from "../Images/story.jpeg";
 import group from "../Images/Maskgroup.png";
 import group2 from "../Images/Group.png";
+import ShapWrapper from "./ShapWrapper";
 
 const RecentlyAdd = () => {
   return (
@@ -48,7 +49,11 @@ const RecentlyAdd = () => {
         </div>
         <div className="absolute top-0 right-0 w-5 h-8 bg-white rounded-tr-[100px]"></div>
       </div> */}
+
+
+      <ShapWrapper/>
     </div>
+    
   );
 };
 export default RecentlyAdd;
